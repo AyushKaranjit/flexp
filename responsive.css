@@ -1,5 +1,5 @@
 body{
-	font-family:my_font,Helvetica;
+	font-family:monospace;
 	font-size:20px;
 	margin:0px;
 	padding:0px;
@@ -7,8 +7,8 @@ body{
 
 @font-face{
 	font-family:my_font;
-	src:url(/home/kare/Downloads/JetBrainsMonoNLNerdFont-Regular.ttf);
-
+	src:url(/home/kare/Downloads/JetBrainsMonoNLNerdFont-Regular.ttf)
+	
 }
 
 header{
@@ -91,7 +91,7 @@ footer{
 	.main{
 		width:90%;
 		order:1;
-		min-height:594px;
+		min-height:596px;
 	}
 	.aside{
 		width:90%;
