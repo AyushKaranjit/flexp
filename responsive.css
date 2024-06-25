@@ -46,3 +46,19 @@ footer{
 	text-align:center;
 	color:white;
 }
+
+@media screen and(max-width:600px){
+	section{
+		flex-direction:column
+	}
+
+	.main{
+		width:96%;
+		order:2;
+	}
+
+	.sidebar{
+		width:96%;
+		order:1;
+	}
+}
