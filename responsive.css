@@ -36,7 +36,6 @@ nav ul {
 
 nav ul li{
 	list-style:none;
-	color
 }
 
 a{
@@ -77,23 +76,25 @@ footer{
 	align-content:center;
 }
 
-@media screen and(max-width:600px){
+@media screen and (max-width:500px) {
+	nav ul{
+		display:flex;
+		justify-content:space-around;
+		padding:0px;
+	}
+	nav ul li{
+		font-size:17px;
+	}
 	section{
 		flex-direction:column;
 	}
-	nav ul{
-		flex-direction:column;
-	}
-	nav ul li{
-		width:96%;
-	}
 	.main{
-		width:96%;
-
+		width:90%;
+		order:1;
+		min-height:594px;
 	}
 	.aside{
-		width:96%;
-
+		width:90%;
+		order:2;
 	}
 }
-
