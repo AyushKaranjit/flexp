@@ -89,12 +89,12 @@ footer{
 		flex-direction:column;
 	}
 	.main{
-		width:90%;
+		width:91%;
 		order:1;
 		min-height:596px;
 	}
 	.aside{
-		width:90%;
+		width:91%;
 		order:2;
 	}
 }
