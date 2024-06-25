@@ -1,0 +1,31 @@
+body{
+	font-family:Helvetica;
+	height:500px;
+}
+
+Header{
+	background-color:#7F00FF;
+	padding:15px;
+}
+
+section{
+	display:flex;
+	height:600px;
+}
+
+.left{
+	background-color:blue;
+	width:50%;
+	padding:15px;
+}
+
+.right{
+	background-color:#D3C5E5;
+	width:50%;
+	padding:15px;
+}
+
+Footer{
+	background-color:purple;
+	padding:20px;
+}
