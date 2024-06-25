@@ -1,5 +1,5 @@
 body{
-	font-family:my_font;
+	font-family:my_font,Helvetica;
 	font-size:20px;
 	margin:0px;
 	padding:0px;
@@ -73,7 +73,7 @@ footer{
 	padding:10px;
 	text-align:center;
 	color:white;
-	height:60px;
+	height:63px;
 	align-content:center;
 }
 
@@ -83,6 +83,17 @@ footer{
 	}
 	nav ul{
 		flex-direction:column;
+	}
+	nav ul li{
+		width:96%;
+	}
+	.main{
+		width:96%;
+
+	}
+	.aside{
+		width:96%;
+
 	}
 }
 
